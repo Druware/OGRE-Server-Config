@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AE5BE01BADBE9B00355BD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AE5BDF1BADBE9B00355BD9 /* AppDelegate.m */; };
+		43AE5BE31BADBE9B00355BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AE5BE21BADBE9B00355BD9 /* main.m */; };
+		43AE5BE51BADBE9B00355BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AE5BE41BADBE9B00355BD9 /* Assets.xcassets */; };
+		43AE5BE81BADBE9B00355BD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43AE5BE61BADBE9B00355BD9 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43AE5BDB1BADBE9B00355BD9 /* OGRE Server Config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OGRE Server Config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AE5BDE1BADBE9B00355BD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj; path = AppDelegate.h; sourceTree = "<group>"; };
+		43AE5BDF1BADBE9B00355BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43AE5BE21BADBE9B00355BD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43AE5BE41BADBE9B00355BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AE5BE71BADBE9B00355BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		43AE5BE91BADBE9B00355BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AE5BD81BADBE9B00355BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AE5BD21BADBE9B00355BD9 = {
+			isa = PBXGroup;
+			children = (
+				43AE5BDD1BADBE9B00355BD9 /* OGRE Server Config */,
+				43AE5BDC1BADBE9B00355BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AE5BDC1BADBE9B00355BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AE5BDB1BADBE9B00355BD9 /* OGRE Server Config.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AE5BDD1BADBE9B00355BD9 /* OGRE Server Config */ = {
+			isa = PBXGroup;
+			children = (
+				43AE5BDE1BADBE9B00355BD9 /* AppDelegate.h */,
+				43AE5BDF1BADBE9B00355BD9 /* AppDelegate.m */,
+				43AE5BE41BADBE9B00355BD9 /* Assets.xcassets */,
+				43AE5BE61BADBE9B00355BD9 /* MainMenu.xib */,
+				43AE5BE91BADBE9B00355BD9 /* Info.plist */,
+				43AE5BE11BADBE9B00355BD9 /* Supporting Files */,
+			);
+			path = "OGRE Server Config";
+			sourceTree = "<group>";
+		};
+		43AE5BE11BADBE9B00355BD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43AE5BE21BADBE9B00355BD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AE5BDA1BADBE9B00355BD9 /* OGRE Server Config */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AE5BEC1BADBE9B00355BD9 /* Build configuration list for PBXNativeTarget "OGRE Server Config" */;
+			buildPhases = (
+				43AE5BD71BADBE9B00355BD9 /* Sources */,
+				43AE5BD81BADBE9B00355BD9 /* Frameworks */,
+				43AE5BD91BADBE9B00355BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OGRE Server Config";
+			productName = "OGRE Server Config";
+			productReference = 43AE5BDB1BADBE9B00355BD9 /* OGRE Server Config.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AE5BD31BADBE9B00355BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = O.G.R.E.;
+				TargetAttributes = {
+					43AE5BDA1BADBE9B00355BD9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 43AE5BD61BADBE9B00355BD9 /* Build configuration list for PBXProject "OGRE Server Config" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AE5BD21BADBE9B00355BD9;
+			productRefGroup = 43AE5BDC1BADBE9B00355BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AE5BDA1BADBE9B00355BD9 /* OGRE Server Config */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AE5BD91BADBE9B00355BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AE5BE51BADBE9B00355BD9 /* Assets.xcassets in Resources */,
+				43AE5BE81BADBE9B00355BD9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AE5BD71BADBE9B00355BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AE5BE31BADBE9B00355BD9 /* main.m in Sources */,
+				43AE5BE01BADBE9B00355BD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43AE5BE61BADBE9B00355BD9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AE5BE71BADBE9B00355BD9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43AE5BEA1BADBE9B00355BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43AE5BEB1BADBE9B00355BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43AE5BED1BADBE9B00355BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OGRE Server Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogre.server.OGRE-Server-Config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43AE5BEE1BADBE9B00355BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OGRE Server Config/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogre.server.OGRE-Server-Config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AE5BD61BADBE9B00355BD9 /* Build configuration list for PBXProject "OGRE Server Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE5BEA1BADBE9B00355BD9 /* Debug */,
+				43AE5BEB1BADBE9B00355BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AE5BEC1BADBE9B00355BD9 /* Build configuration list for PBXNativeTarget "OGRE Server Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AE5BED1BADBE9B00355BD9 /* Debug */,
+				43AE5BEE1BADBE9B00355BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43AE5BD31BADBE9B00355BD9 /* Project object */;
+}
